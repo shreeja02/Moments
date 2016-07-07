@@ -12,6 +12,7 @@ class database
 		mysql_select_db('shreeja',self::$con);
 		return self::$con;
 	}
+	//hello how are you
 	public static function disconnect()
 	{
 		mysql_close(self::$con);
